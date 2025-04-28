@@ -13,8 +13,8 @@ POST http://localhost:8080/api/v1/software-engineers
 Content-Type: application/json
 
 {
-  "name": "Jack",
-  "techStack": "HTML, CSS, JavaScript, SQL, Java"
+  "name": "Rowan",
+  "techStack": "R, Java, Linux"
 }
 
 ###

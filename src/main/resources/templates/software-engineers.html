@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Software Engineers</title>
+</head>
+<body>
+<h1>All Software Engineers</h1>
+
+<ul>
+    <li th:each="engineer : ${engineers}">
+        <span th:text="${engineer.name}">Name</span> -
+        <span th:text="${engineer.techStack}">Tech Stack</span>
+        <span th:text="${engineer.learningPathRecommendation}">Path</span>
+    </li>
+</ul>
+
+</body>
+</html>
